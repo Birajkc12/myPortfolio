@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Newsreader&family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Assistant", sans-serif;
+  font-family: "Newsreader", serif;
+  font-family: "Poppins", sans-serif;
+}
+.sec-pad {
+  padding: 12rem 0;
+}
+.btn {
+  background: #facf0f;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+a {
+  text-decoration: none;
+}
