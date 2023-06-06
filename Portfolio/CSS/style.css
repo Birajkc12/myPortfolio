@@ -583,9 +583,10 @@ a {
 }
 
 .filter-buttons {
-  margin: 20px 0;
+  margin: 25px 0;
 }
 .filter-buttons button {
+  font-size: 1.3rem;
   padding: 5px 10px;
   margin: 0 5px;
   border: none !important;
