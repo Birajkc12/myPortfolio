@@ -1,0 +1,194 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Avenir-Light", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+}
+.navbar-links li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar-links a {
+  text-decoration: none;
+}
+li {
+  padding: 0 25px;
+  font-style: normal;
+  line-height: 20px;
+  color: #2e3192;
+  font-size: 14px;
+  font-weight: 100;
+}
+.banner {
+  background: url(https://www.cotiviti.com.np/sites/all/themes/verscend/images/pattern_big.jpg);
+  padding-bottom: 3em;
+}
+.block-content {
+  text-align: center;
+}
+.block-content h1 {
+  font-size: 5.5em;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  color: #2e3192;
+}
+.block-content .subtitle {
+  color: #ec008c;
+}
+.navbar-logo img {
+  height: 42px;
+  width: 180px;
+}
+.block-content .link {
+  padding: 1em;
+  color: #ec008c;
+}
+.contact-info {
+  /* background-color: bisque; */
+  padding: 4em;
+}
+.inner-details {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contact-title {
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+  color: #2e3192;
+}
+.region-address {
+  width: 50%;
+}
+.address-details {
+  width: 75%;
+  display: inline-block;
+}
+p {
+  margin: 0 0 1.5em;
+}
+.link a {
+  color: #ec008c;
+  padding: 0.2em;
+  font-size: 3em;
+}
+.fa.fa-facebook,
+.fa.fa-twitter {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 3em;
+}
+.location-address {
+  display: inline;
+  width: 50%;
+}
+.contact-content {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+a {
+  text-decoration: none;
+  color: #2e3192;
+}
+.maps {
+  width: 100%;
+}
+#contact-form {
+  background: #00adee url(../images/contact_formbg.png) bottom center no-repeat;
+  padding-bottom: 15em;
+  color: #fff;
+  padding: 4em;
+  height: 100vh;
+}
+#main-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#content-title {
+  color: #fff;
+  padding-bottom: 0.5em;
+  text-align: center;
+  margin: 0;
+  font-family: "Avenir-Light", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 2.5em;
+}
+.container {
+  padding: 4em;
+}
+#form-welcome-detail {
+  margin-bottom: 20px;
+}
+#form-welcome-detail p {
+  text-align: center;
+}
+.contact-form {
+  width: 70%;
+  min-width: 380px;
+  margin: 0 auto;
+}
+.contact-form .inputfield-name,
+.inputfield-subject {
+  float: left;
+  width: 47%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.form-text,
+.form-select {
+  display: block;
+  width: 100%;
+  height: 44px;
+  padding: 6px 1em;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form .inputfield-mail,
+.inputfield-cid {
+  float: right;
+  width: 47%;
+  padding-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.message-content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: left;
+}
