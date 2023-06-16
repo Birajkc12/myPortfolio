@@ -3,7 +3,7 @@
     "start": "sass CSS/style.scss CSS/style.css --watch"
   },
   "dependencies": {
-    "bootstrap": "^5.3.0-alpha3",
+    "bootstrap": "^5.3.0",
     "sass": "^1.62.1"
   },
   "devDependencies": {
